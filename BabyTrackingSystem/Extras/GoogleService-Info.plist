@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>712828276880-tm41eqblaaiqqjnm7tffcs1au57uqp2f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.712828276880-tm41eqblaaiqqjnm7tffcs1au57uqp2f</string>
+	<key>API_KEY</key>
+	<string>AIzaSyApNnzofupbfqfHQb5zPsMdjZ7B3M5piiU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>712828276880</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.event.babytrackingsystem.application</string>
+	<key>PROJECT_ID</key>
+	<string>baby-tracking-system</string>
+	<key>STORAGE_BUCKET</key>
+	<string>baby-tracking-system.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:712828276880:ios:a3603a02d0db1c6119c815</string>
+	<key>DATABASE_URL</key>
+	<string>https://baby-tracking-system-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

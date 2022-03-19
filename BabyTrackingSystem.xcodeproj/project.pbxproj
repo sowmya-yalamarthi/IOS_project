@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7429389F2744BB1F002992FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7429389E2744BB1F002992FA /* AppDelegate.swift */; };
+		742938A12744BB1F002992FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742938A02744BB1F002992FA /* SceneDelegate.swift */; };
+		742938A62744BB1F002992FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742938A42744BB1F002992FA /* Main.storyboard */; };
+		742938A82744BB1F002992FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742938A72744BB1F002992FA /* Assets.xcassets */; };
+		742938AB2744BB1F002992FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742938A92744BB1F002992FA /* LaunchScreen.storyboard */; };
+		742938C02744BC82002992FA /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742938BF2744BC82002992FA /* InitialViewController.swift */; };
+		742938C42744BDA9002992FA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742938C32744BDA9002992FA /* SplashViewController.swift */; };
+		742938C72744C1C4002992FA /* GlobalMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742938C62744C1C4002992FA /* GlobalMethods.swift */; };
+		742938CB2744CBFA002992FA /* SelectDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742938CA2744CBFA002992FA /* SelectDateViewController.swift */; };
+		742938D22744CEA8002992FA /* AddDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742938D12744CEA8002992FA /* AddDetailsViewController.swift */; };
+		7429392227450395002992FA /* WeeksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7429392127450395002992FA /* WeeksViewController.swift */; };
+		7429392627451F2B002992FA /* weekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7429392427451F2B002992FA /* weekTableViewCell.swift */; };
+		7429392727451F2B002992FA /* weekTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7429392527451F2B002992FA /* weekTableViewCell.xib */; };
+		7429392B27452119002992FA /* WeekDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7429392A27452119002992FA /* WeekDetailsViewController.swift */; };
+		744043A8274611EA00A5E44E /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744043A7274611EA00A5E44E /* Database.swift */; };
+		744043AB2746124D00A5E44E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 744043AA2746124D00A5E44E /* GoogleService-Info.plist */; };
+		744043EA27461FD700A5E44E /* baby.png in Resources */ = {isa = PBXBuildFile; fileRef = 744043E927461FD700A5E44E /* baby.png */; };
+		74529DE43AA5011165FA1313 /* Pods_BabyTrackingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835CBFEB41797F720BDE7256 /* Pods_BabyTrackingSystem.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C84EDF50E9EB432C1D491AD /* Pods-BabyTrackingSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyTrackingSystem.release.xcconfig"; path = "Target Support Files/Pods-BabyTrackingSystem/Pods-BabyTrackingSystem.release.xcconfig"; sourceTree = "<group>"; };
+		7429389B2744BB1F002992FA /* BabyTrackingSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyTrackingSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7429389E2744BB1F002992FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		742938A02744BB1F002992FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		742938A52744BB1F002992FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		742938A72744BB1F002992FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		742938AA2744BB1F002992FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		742938AC2744BB1F002992FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742938BF2744BC82002992FA /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		742938C32744BDA9002992FA /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		742938C62744C1C4002992FA /* GlobalMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalMethods.swift; sourceTree = "<group>"; };
+		742938CA2744CBFA002992FA /* SelectDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateViewController.swift; sourceTree = "<group>"; };
+		742938D12744CEA8002992FA /* AddDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDetailsViewController.swift; sourceTree = "<group>"; };
+		7429392127450395002992FA /* WeeksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeksViewController.swift; sourceTree = "<group>"; };
+		7429392427451F2B002992FA /* weekTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weekTableViewCell.swift; sourceTree = "<group>"; };
+		7429392527451F2B002992FA /* weekTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = weekTableViewCell.xib; sourceTree = "<group>"; };
+		7429392A27452119002992FA /* WeekDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDetailsViewController.swift; sourceTree = "<group>"; };
+		744043A7274611EA00A5E44E /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		744043AA2746124D00A5E44E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		744043E927461FD700A5E44E /* baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby.png; sourceTree = "<group>"; };
+		78C499AB39FF41C043133301 /* Pods-BabyTrackingSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyTrackingSystem.debug.xcconfig"; path = "Target Support Files/Pods-BabyTrackingSystem/Pods-BabyTrackingSystem.debug.xcconfig"; sourceTree = "<group>"; };
+		835CBFEB41797F720BDE7256 /* Pods_BabyTrackingSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyTrackingSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		742938982744BB1F002992FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74529DE43AA5011165FA1313 /* Pods_BabyTrackingSystem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EB6152CA8229645BBDE64B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				835CBFEB41797F720BDE7256 /* Pods_BabyTrackingSystem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		742938922744BB1F002992FA = {
+			isa = PBXGroup;
+			children = (
+				7429389D2744BB1F002992FA /* BabyTrackingSystem */,
+				7429389C2744BB1F002992FA /* Products */,
+				DA75B55F74E173469FA8A748 /* Pods */,
+				6EB6152CA8229645BBDE64B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7429389C2744BB1F002992FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7429389B2744BB1F002992FA /* BabyTrackingSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7429389D2744BB1F002992FA /* BabyTrackingSystem */ = {
+			isa = PBXGroup;
+			children = (
+				742938B82744BB9E002992FA /* Cell */,
+				742938B72744BB97002992FA /* Model */,
+				742938BB2744BC2F002992FA /* View */,
+				742938B52744BB4E002992FA /* Controller */,
+				742938B62744BB50002992FA /* StoryBoard */,
+				742938B42744BB4C002992FA /* Common */,
+				742938B32744BB29002992FA /* Images */,
+				742938BA2744BC1E002992FA /* Extras */,
+			);
+			path = BabyTrackingSystem;
+			sourceTree = "<group>";
+		};
+		742938B32744BB29002992FA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				744043E927461FD700A5E44E /* baby.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		742938B42744BB4C002992FA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				742938C62744C1C4002992FA /* GlobalMethods.swift */,
+				7429389E2744BB1F002992FA /* AppDelegate.swift */,
+				742938A02744BB1F002992FA /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		742938B52744BB4E002992FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				742938C32744BDA9002992FA /* SplashViewController.swift */,
+				742938BF2744BC82002992FA /* InitialViewController.swift */,
+				742938CA2744CBFA002992FA /* SelectDateViewController.swift */,
+				742938D12744CEA8002992FA /* AddDetailsViewController.swift */,
+				7429392127450395002992FA /* WeeksViewController.swift */,
+				7429392A27452119002992FA /* WeekDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		742938B62744BB50002992FA /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				742938A42744BB1F002992FA /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		742938B72744BB97002992FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				744043A7274611EA00A5E44E /* Database.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		742938B82744BB9E002992FA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7429392427451F2B002992FA /* weekTableViewCell.swift */,
+				7429392527451F2B002992FA /* weekTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		742938BA2744BC1E002992FA /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				744043AA2746124D00A5E44E /* GoogleService-Info.plist */,
+				742938AC2744BB1F002992FA /* Info.plist */,
+				742938A72744BB1F002992FA /* Assets.xcassets */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		742938BB2744BC2F002992FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				742938A92744BB1F002992FA /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA75B55F74E173469FA8A748 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78C499AB39FF41C043133301 /* Pods-BabyTrackingSystem.debug.xcconfig */,
+				0C84EDF50E9EB432C1D491AD /* Pods-BabyTrackingSystem.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7429389A2744BB1F002992FA /* BabyTrackingSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742938AF2744BB1F002992FA /* Build configuration list for PBXNativeTarget "BabyTrackingSystem" */;
+			buildPhases = (
+				854355C19925787AE67A765E /* [CP] Check Pods Manifest.lock */,
+				742938972744BB1F002992FA /* Sources */,
+				742938982744BB1F002992FA /* Frameworks */,
+				742938992744BB1F002992FA /* Resources */,
+				98DA48E665E7BEA480496D14 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyTrackingSystem;
+			productName = BabyTrackingSystem;
+			productReference = 7429389B2744BB1F002992FA /* BabyTrackingSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		742938932744BB1F002992FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7429389A2744BB1F002992FA = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 742938962744BB1F002992FA /* Build configuration list for PBXProject "BabyTrackingSystem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 742938922744BB1F002992FA;
+			productRefGroup = 7429389C2744BB1F002992FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7429389A2744BB1F002992FA /* BabyTrackingSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		742938992744BB1F002992FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742938AB2744BB1F002992FA /* LaunchScreen.storyboard in Resources */,
+				7429392727451F2B002992FA /* weekTableViewCell.xib in Resources */,
+				742938A82744BB1F002992FA /* Assets.xcassets in Resources */,
+				742938A62744BB1F002992FA /* Main.storyboard in Resources */,
+				744043AB2746124D00A5E44E /* GoogleService-Info.plist in Resources */,
+				744043EA27461FD700A5E44E /* baby.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		854355C19925787AE67A765E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabyTrackingSystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98DA48E665E7BEA480496D14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BabyTrackingSystem/Pods-BabyTrackingSystem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BabyTrackingSystem/Pods-BabyTrackingSystem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BabyTrackingSystem/Pods-BabyTrackingSystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		742938972744BB1F002992FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742938CB2744CBFA002992FA /* SelectDateViewController.swift in Sources */,
+				744043A8274611EA00A5E44E /* Database.swift in Sources */,
+				742938D22744CEA8002992FA /* AddDetailsViewController.swift in Sources */,
+				7429392227450395002992FA /* WeeksViewController.swift in Sources */,
+				742938C02744BC82002992FA /* InitialViewController.swift in Sources */,
+				7429389F2744BB1F002992FA /* AppDelegate.swift in Sources */,
+				742938A12744BB1F002992FA /* SceneDelegate.swift in Sources */,
+				742938C72744C1C4002992FA /* GlobalMethods.swift in Sources */,
+				7429392B27452119002992FA /* WeekDetailsViewController.swift in Sources */,
+				742938C42744BDA9002992FA /* SplashViewController.swift in Sources */,
+				7429392627451F2B002992FA /* weekTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		742938A42744BB1F002992FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				742938A52744BB1F002992FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		742938A92744BB1F002992FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				742938AA2744BB1F002992FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		742938AD2744BB1F002992FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		742938AE2744BB1F002992FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		742938B02744BB1F002992FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C499AB39FF41C043133301 /* Pods-BabyTrackingSystem.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4K8B9YJNZV;
+				INFOPLIST_FILE = BabyTrackingSystem/Extras/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.01;
+				PRODUCT_BUNDLE_IDENTIFIER = com.event.babytrackingsystem.application;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		742938B12744BB1F002992FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C84EDF50E9EB432C1D491AD /* Pods-BabyTrackingSystem.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4K8B9YJNZV;
+				INFOPLIST_FILE = BabyTrackingSystem/Extras/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.01;
+				PRODUCT_BUNDLE_IDENTIFIER = com.event.babytrackingsystem.application;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		742938962744BB1F002992FA /* Build configuration list for PBXProject "BabyTrackingSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742938AD2744BB1F002992FA /* Debug */,
+				742938AE2744BB1F002992FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742938AF2744BB1F002992FA /* Build configuration list for PBXNativeTarget "BabyTrackingSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742938B02744BB1F002992FA /* Debug */,
+				742938B12744BB1F002992FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 742938932744BB1F002992FA /* Project object */;
+}
